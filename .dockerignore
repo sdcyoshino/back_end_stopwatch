@@ -1,0 +1,29 @@
+# Install these inside the container
+# package-lock.json
+node_modules
+
+# Tests are executed before building
+__tests__
+__mocks__
+
+# Log files
+log
+logs
+
+# Dev files
+.git
+.gitignore
+.eslintignore
+docker-compose.yaml
+tmp
+
+# Configs, these should be passed upon starting container
+# .env
+sample.env
+test.env
+
+# Gitlab Configs
+.gitlab-ci.yml
+
+# Mac directory
+.DS_Store
